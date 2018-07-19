@@ -1,0 +1,124 @@
+﻿*{
+	box-sizing: border-box; margin: 0; padding: 0}
+
+body
+{
+font-family: 'Raleway', sans-serif;
+}
+header
+{
+	width: 100%; 
+	height: 100px; 
+	background: #040404; 
+}
+.header-paralax {
+  background-image: url(images/4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  position: fixed;
+  height: 600px;
+}
+
+.header-paralax h1 {
+  text-align: center;
+  color: #fff;
+  text-shadow: 2px 3px 1px #111111;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+  letter-spacing: 0.16em;
+  font-size: 6em;
+  padding: 210px 0;
+}
+
+main {
+  background: #f5f5f5;
+  position: relative;
+  top: 600px;
+  font-family: 'Raleway', sans-serif;
+  color: #111111;
+}
+
+.container {
+  padding: 0 26%;
+}
+
+.container h1 {
+  padding: 1.2em 0 0 0;
+  font-size: 3.5em;
+  color: #212121;
+}
+.container h2 {
+  padding:0 0 0.8em 0.4em;
+  font-size:1.5em;
+}
+.container p {
+  padding-bottom: 1em;
+  font-size:1.6em;
+  line-height: 1.5;
+  color: #212121;
+}
+div#logo
+{
+	width: 150px; 
+	margin: 25px auto;
+	font-family: 'Courgette', cursive;
+	font-size: 20px;
+	color: white;
+	border: 2px white solid;
+	padding: 10px;
+	text-align: center;
+	border-radius: 7px;
+}
+div#logo:hover
+{
+	background-color: rgba(80,70,60,0.7);
+	cursor: pointer;
+	transition: 1s;
+}
+div#nav
+{
+	width: 100%;
+	height: auto; 
+	margin: 0 auto;
+}
+
+menu
+{
+	width: 610px; 
+	height: 60px; 
+	margin: 0 auto;
+}
+ul li
+{
+	display: inline-block;
+	margin: 20px; 
+	padding: 10px;
+}
+menu ul li a, a:link, a:visited, a:active
+{
+	color: #323232;
+}
+a
+{
+	text-decoration: none;
+}
+.b a
+{
+	color: #A3062F; 
+	text-decoration: underline;
+}
+footer p
+{
+	text-align: center; 
+	color: #FFF; 
+	padding: 10px; 
+	font-size: 10pt;
+}
+footer
+{
+	width: 100%; 
+	height: 40px; 
+	background: #392D2D; 
+	margin-top: 20px
+}
